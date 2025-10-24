@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products | Top Plug Technology</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  </head>
+
+<body>
+
+  <!-- HEADER -->
+ <!-- NAVIGATION -->
+  <header class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <div class="brand">
+          <img src="logo.png" alt="Top Plug Technology Logo" class="logo">
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="home.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact Us</a>
+          <a class="btn-primary" href="#">Get a Quote</a>
+        </nav>
+
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="products-hero">
+    <h1>Our Products</h1>
+    <p>High-quality tech equipment and accessories at affordable prices</p>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="products">
+    <h2>Explore Our Collection</h2>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="laptop.jpg" alt="Laptop">
+        <h3>HP Pavilion 15</h3>
+        <p>Powerful performance for business and entertainment.</p>
+        <div class="price">ZMW 12,500</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="router.jpg" alt="Router">
+        <h3>TP-Link Wi-Fi Router</h3>
+        <p>Reliable and fast wireless internet connectivity.</p>
+        <div class="price">ZMW 950</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="printer.jpg" alt="Printer">
+        <h3>Canon Pixma Printer</h3>
+        <p>High-quality color prints with wireless convenience.</p>
+        <div class="price">ZMW 2,300</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="keyboard.jpg" alt="Keyboard">
+        <h3>Mechanical Keyboard</h3>
+        <p>Durable and responsive keys for optimal performance.</p>
+        <div class="price">ZMW 650</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="monitor.jpg" alt="Monitor">
+        <h3>24” LED Monitor</h3>
+        <p>Sharp visuals and vibrant colors for your workspace.</p>
+        <div class="price">ZMW 3,800</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="headphones.jpg" alt="Headphones">
+        <h3>Noise Cancelling Headphones</h3>
+        <p>Immersive sound experience for work or relaxation.</p>
+        <div class="price">ZMW 1,200</div>
+        <a href="#" class="btn-buy"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Need Bulk Orders?</h2>
+    <p>Contact us for business or institutional purchases and special pricing.</p>
+    <a href="contact.html">Contact Us</a>
+  </section>
+
+  <!-- FOOTER -->
+  <!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-col brand">
+        <img src="logo.png" alt="Top Plug Technology Logo" class="footer-logo">
+        <p>Delivering reliable and fast technology repair services across Zambia — trusted by homes and businesses alike.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> +260 978 070808</li>
+          <li><i class="fa-solid fa-envelope"></i> info@topplugtechnology.com</li>
+          <li><i class="fa-solid fa-location-dot"></i>Buyantanshi, Nchanga north, Chingola, Zambia </li>
+        </ul>
+      </div>
+
+      <div class="footer-col social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Top Plug Technology — All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script>
+    
+    // Mobile menu toggle
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
